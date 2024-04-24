@@ -208,13 +208,13 @@ nav li:first-child{
 }
 
 .topic_container_mobile:hover{
-  scale: 1;
+  scale: 0.95;
   transition: 0.2s;
   opacity: 1;
 }
 
 .topic_container_mobile:not(:hover){
-  scale: 0.95;
+  scale: 1;
   transition: 0.2s;
   opacity: 0.9;
 }
