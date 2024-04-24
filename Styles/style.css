@@ -456,7 +456,7 @@ a{
 
 .service_preview_container_mobile{
   display: none;
-  grid-template-columns: 30px [service_preview-start] 1fr [service_preview-end] 30px;
+  grid-template-columns: 10px [service_preview-start] 1fr [service_preview-end] 10px;
   grid-template-rows: [service_preview1-start] 200px [service_preview1-end] 30px [service_preview2-start] 200px [service_preview2-end];
   margin-bottom: 20vh;
 }
@@ -468,7 +468,7 @@ a{
   grid-column: service_preview;
   border-radius: 10px;
   padding-top: 20px;
-  margin-inline: 60px;
+  margin-inline: 20px;
   height: 100%;
   margin-bottom: 15px;
 }
@@ -496,6 +496,14 @@ a{
   }
 
   .product_preview_container_mobile{
+    display: flex;
+  }
+
+  .preview_container{
+    display: none;
+  }
+
+  .preview_container_mobile{
     display: flex;
   }
 }
